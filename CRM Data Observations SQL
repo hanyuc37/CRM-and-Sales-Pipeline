@@ -7,7 +7,7 @@
 -- Create a Schema
 CREATE SCHEMA CRM;
 USE CRM;
--- Create a table contains all the CRM information
+-- Create a table containing all the CRM information
 CREATE TABLE CRM_INFO (
 Id INT PRIMARY KEY,
 Organization VARCHAR(200) NOT NULL,
@@ -58,7 +58,7 @@ MODIFY COLUMN Actual_close_date DATE;
 
 /* 
 DATA OBSERVATION
-For better understanding the dataset and the project objectives, I use T-SQL command to querry and aggregate data to gain some basic insights.
+For a better understanding of the dataset and the project objectives, I use the T-SQL command to query and aggregate data to gain some basic insights.
 */
 
 
@@ -85,7 +85,7 @@ FROM customer_cnt, lead_cnt;
 --  Deal Cycle Time 
 	-- Actual _close_date - Lead_acquistion_date 
 /* Deal Cycle Time: The time it takes to convert a customer, known as the Deal Cycle Time. 
-Understanding this duration allows us to set sales goals based on day ranges andn average conversion time,
+Understanding this duration allows us to set sales goals based on day ranges and average conversion time,
 aiming to optimize efficiency without compromising service quality. 
 */
 SELECT 
@@ -119,8 +119,8 @@ FROM All_stages, Won;
 
 
 
-/* It's crucial to visualize and understand the flow of leads through various stages if a CRM process.
-It provides insights into % records have progressed through each stage relative to the total number that started at the "Opened" Stage.
+/* It's crucial to visualize and understand the flow of leads through various stages of a CRM process.
+It provides insights into % records that have progressed through each stage relative to the total number that started at the "Opened" Stage.
 
 */
 WITH accumulated_t AS
@@ -187,9 +187,9 @@ This insight guides salespersons in adjusting their goals and refining their app
     ON t2.Industry = t3.Industry
     ORDER BY 3 DESC, 4 DESC;
     
-/* Oragnization Size View
+/* Organization Size View
 Understand the performance of different organization sizes in terms of actual versus expected sales count, and the conversion rate. 
-It helps evaluating the effectiveness of sales stragies across different sizes within a CRM context.
+It helps evaluate the effectiveness of sales strategies across different sizes within a CRM context.
 Adjustments can be made based on specific business requirements and additional filters or conditions can be applied as necessary.
 */
 WITH Actual_org_sales AS
