@@ -12,11 +12,12 @@ To enhance our understanding of the dataset, we established an **SQL**  database
 * **Conversion Rate:** The conversion rate is one of the KPIs used to evaluate sales performance.  29% of the leads were successfully converted to customers. 
 
 ![conversion rate](https://github.com/user-attachments/assets/4ae750e8-abc2-409a-961f-44664c6bf0bf)
-* **Days that takes to convert a lead to a customer** gives a distribution of the range, average, maximum, and minimum days that a lead converts to a customer. It takes 1-120, with an average of 63 days (std 34 days) of cycle time to convert a lead to a customer.
+* **Days that takes to convert a lead to a customer** gives a distribution of the range, average, maximum, and minimum days a lead converts to a customer. It takes 1-120, with an average of 63 days (std 34 days) of cycle time to convert a lead to a customer.
   
 ![days takes to convert a lead](https://github.com/user-attachments/assets/3b34ef9c-9d0e-4948-b807-39d9b978abd9)
 
-* **Sales funnel in %:** Sales funnel stage includes Opened, Initial Contact, Nurturing, Proposal Sent, and Won. 91.9% of leads were contacted initially by sales agents, 55% were nurtured, 27.7% proposal sent, and lastly, 10.3% won the proposal.
+* **Sales funnel in %:** The sales funnel stage includes Opening, initial contact, nurturing, proposal sent, and won. It's crucial to visualize and understand the flow of leads through various stages of a CRM process.
+It provides insights into % records that have progressed through each stage relative to the total number that started at the "Opened" Stage. 91.9% of leads were contacted initially by sales agents, 55% were nurtured, 27.7% were sent, and lastly, 10.3% won the proposal.
 
 ![saels funnel](https://github.com/user-attachments/assets/adb904a5-b330-4a92-a343-0a064b6e4422)
 
@@ -26,7 +27,7 @@ To enhance our understanding of the dataset, we established an **SQL**  database
 
 ![indsutry view pt2](https://github.com/user-attachments/assets/f6ba08cb-abd7-4224-a2da-f13f352559f0)
 
-* **Sales Productivity Track**: To track each salesperson's productivity, Total Leads, Conversion Rate, Average Days to Convert, Advance Completion Time, and Customer Churn Rate are the KPIs to identify the Top Salesperson based on different criteria. The example provided below is ranked based on the conversion rate. 
+* **Sales Productivity Track**: It helps in gaining insights into sales performance and effectiveness across different salespersons, facilitating informed decision-making and strategy optimization within a CRM context. To track each salesperson's productivity, Total Leads, Conversion Rate, Average Days to Convert, Advance Completion Time, and Customer Churn Rate are the KPIs to identify the Top Salesperson based on different criteria. The example provided below is ranked based on the conversion rate. 
 
 ![SALES PRODUCTIVITY 1](https://github.com/user-attachments/assets/20c95991-2e38-4f41-b5ec-12aa4e2074a2)
 
