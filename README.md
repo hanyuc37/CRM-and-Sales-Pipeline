@@ -1,7 +1,7 @@
 # CRM-and-Sales-Pipeline
 
 ## 1. Business Goals Overview
-XX Company seeks insights and evaluations from its CRM data and sales pipeline for leads registered over the last five months. The primary objectives are to **assess the sales pipeline's health**, **forecast potential income for the next six months**, and **compare sales agent performance**.
+XX Company seeks insights and evaluations from its CRM data and sales pipeline for leads registered over the last five months. The primary objectives are to **assess the sales pipeline's health**, and **compare sales agent performance**.
 
 Our goal is to conduct a thorough analysis and create an interactive dashboard that enables our client to monitor salesperson performance, maintain the health of the sales pipeline, identify opportunities, enhance customer relations, make informed decisions, and optimize their strategies. 
 
@@ -42,6 +42,7 @@ To track the health of the sales pipeline and monitor salesperson's sales perfor
 * **Sales Productivity Tracking**: The performance of salespersons is closely tied to the company's overall sales. Key performance indicators (KPIs) such as total leads, total customers, conversion rate, average conversion days, and total sales are utilized to evaluate each salesperson's performance and productivity. The sales funnel tracks leads as they progress through various stages, from the opened stage to the won stage.
 One critical factor in sales efficiency is the time spent converting a customer. For instance, by comparing the average conversion time across salespersons, our clients can identify those who may need to adjust their sales strategies if their performance falls below the average.
 ![salesperson db](https://github.com/user-attachments/assets/c9c783bb-f174-426a-bace-dcb514611291)
+
 
 ## 4. Dashboard Link
 https://public.tableau.com/app/profile/hanyu.chen7482/vizzes
