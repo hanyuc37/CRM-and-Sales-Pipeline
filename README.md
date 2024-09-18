@@ -1,15 +1,15 @@
 # CRM-and-Sales-Pipeline
 
 ## 1. Business Goals Overview
-XX Company seeks insights and evaluations from its CRM data and sales pipeline for leads registered over the last five months. The primary objectives are to **assess the sales pipeline's health**, and **compare sales agent performance**.
+Our client, a well-known consulting company, seeks insights and evaluations from its CRM data and sales pipeline for leads registered over the last five months. The primary objectives are to **assess the sales pipeline's health**, and **compare sales agent performance**.
 
-Our goal is to conduct a thorough analysis and create an interactive dashboard that enables our client to monitor salesperson performance, maintain the health of the sales pipeline, identify opportunities, enhance customer relations, make informed decisions, and optimize their strategies. 
+Our goal is to conduct a thorough analysis and create an interactive Tableau dashboard that enables our client to monitor salesperson performance, maintain the health of the sales pipeline, identify opportunities, enhance customer relations, make informed decisions, and optimize their strategies. 
 
 ## 2. Technical Highlights
 
 To enhance our understanding of the dataset, we established an **SQL**  database, conducted data cleaning operations, and utilized queries and aggregation to extract meaningful insights. We employed **subqueries, window functions, and WITH clauses** extensively to extract information in a clear and structured format.
   
-* **Sales funnel in %:** The sales funnel stage includes Opening, initial contact, nurturing, proposal sent, and won. It's crucial to visualize and understand the flow of leads through various stages of a CRM process.
+* **Sales funnel in %:** The sales funnel stage includes Opened, Initial Contact, Nurturing, Proposal Sent, and Won. It's crucial to visualize and understand the flow of leads through various stages of a CRM process.
 It provides insights into % records that have progressed through each stage relative to the total number that started at the "Opened" Stage. 91.9% of leads were contacted initially by sales agents, 55% were nurtured, 27.7% were sent, and lastly, 10.3% won the proposal.
 ![sales funnel](https://github.com/user-attachments/assets/3418ebc9-310c-437a-9b8a-a71d53f7bb3c)
 
