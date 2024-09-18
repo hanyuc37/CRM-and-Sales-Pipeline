@@ -32,20 +32,21 @@ It provides insights into % records that have progressed through each stage rela
 To track the health of the sales pipeline and monitor salesperson's sales performance, we created an interactive dashboard to showcase the performance. The dashboards are broken down into two parts, 
 
 * **Sales Pipeline Overview**: the business overview where our clients can access high-level information such as the number of leads, amount of sales, number of customers monthly as well as the overall churn rate. The overview dashboard also contains information on the lead's demographical information such as the industry that they belong to, company size, countries that they reside in, and the service or product they acquire, where our clients can better target the leads and adjust the sales strategies.
-![Sales pipeline overview](https://github.com/user-attachments/assets/f7947883-97b0-417c-81be-a895ae009a15)
+![db overview](https://github.com/user-attachments/assets/7a1d5464-20e4-49a0-846e-216cd5b30055)
 
-* For example, Customer Solutions account for only 19.7% of all products and services. To increase the acquisition of Customer Solutions, it is recommended to target medium-sized companies in the IT services sector, as they generate the most sales per customer, have a decent conversion rate, and account for a significant portion of total customers.
+
+* For example, Customer Solutions accounts for only 19.7% of all products and services. To increase the acquisition of Customer Solutions, it is recommended to target medium-sized companies in the IT services sector, as they generate the most sales per customer, have a decent conversion rate, and account for a significant portion of total customers.
 
 * Month-to-month sales status is another key metric for monitoring customer status, allowing for monthly comparisons. This includes tracking the count of new customers, disqualified customers, churned customers, and opportunities, among other factors.
 
 
-* **Sales Productivity Tracking**: The performance of salespersons is closely tied to the company's overall sales. Key performance indicators (KPIs) such as total leads, total customers, conversion rate, average conversion days, and total sales are utilized to evaluate each salesperson's performance and productivity. The sales funnel tracks leads as they progress through various stages, from the opened stage to the won stage.
+* **Sales Productivity Tracking**: The performance of salespersons is closely tied to the company's overall sales. Key performance indicators (KPIs) such as total leads, total customers, conversion rate, average conversion days, and total sales are utilized to evaluate each salesperson's performance and productivity. The sales funnel tracks lead as they progress through various stages, from the opened stage to the won stage.
 One critical factor in sales efficiency is the time spent converting a customer. For instance, by comparing the average conversion time across salespersons, our clients can identify those who may need to adjust their sales strategies if their performance falls below the average.
-![salesperson db](https://github.com/user-attachments/assets/c9c783bb-f174-426a-bace-dcb514611291)
+![salesperson db](https://github.com/user-attachments/assets/ecf6cbb9-c76b-4459-86b3-d397de9ee074)
 
 
 ## 4. Dashboard Link
-https://public.tableau.com/app/profile/hanyu.chen7482/vizzes
+https://public.tableau.com/app/profile/hanyu.chen7482/viz/CRMandSalesPipeline/CRMOverview
 
 
 
